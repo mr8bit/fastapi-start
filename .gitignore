@@ -10,7 +10,6 @@ dist
 db.sqlite3
 
 venv
-.env
 local_config.py
 social_app.py
 .env.dev
