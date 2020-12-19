@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: postgres
+    restart: always
+    image: postgres:alpine
+    env_file:
+      - .env.dev
+    ports:
+      - 5432:5432
+    volumes:
+      - postgresdatadev:/var/lib/postgresql/data
+
+volumes:
+  postgresdatadev:
