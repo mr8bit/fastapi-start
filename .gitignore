@@ -12,7 +12,6 @@ db.sqlite3
 venv
 local_config.py
 social_app.py
-.env.dev
 __pycache__/
 */__pycache__/
 *.py[cod]
